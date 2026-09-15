@@ -26,6 +26,13 @@ project:
         - file: content/number-rep/integer-representations.md
         # - file: content/number-rep/twos-complement.md
         - file: content/number-rep/summary.md
+    - title: "L02 Biểu diễn Số (Tiếng Việt)"
+      children:
+        - file: content/number-rep-vi/index.md
+        - file: content/number-rep-vi/binary-decimal-hex.md
+        - file: content/number-rep-vi/integer-representations.md
+        - file: content/number-rep-vi/twos-complement.md
+        - file: content/number-rep-vi/summary.md
     - title: "L03-L07 C"
       children:
       - title: "L03 C Basics"
@@ -36,6 +43,14 @@ project:
           - file: content/c-basics/c-variables.md
           - file: content/c-basics/c-syntax.md
           - file: content/c-basics/summary.md
+      - title: "L03 Cơ bản về C (Tiếng Việt)"
+        children:
+          - file: content/c-basics-vi/index.md
+          - file: content/c-basics-vi/compile-vs-interpret.md
+          - file: content/c-basics-vi/c-vs-java.md
+          - file: content/c-basics-vi/c-variables.md
+          - file: content/c-basics-vi/c-syntax.md
+          - file: content/c-basics-vi/summary.md
       - title: "L04 C Pointers, Arrays, Strings"
         children:
           - file: content/c-pointers-arrays-strings/index.md
@@ -43,6 +58,13 @@ project:
           - file: content/c-pointers-arrays-strings/arrays.md
           - file: content/c-pointers-arrays-strings/strings.md
           - file: content/c-pointers-arrays-strings/summary.md
+      - title: "L04 Con trỏ, Mảng, Chuỗi (Tiếng Việt)"
+        children:
+          - file: content/c-pointers-arrays-strings-vi/index.md
+          - file: content/c-pointers-arrays-strings-vi/pointers.md
+          - file: content/c-pointers-arrays-strings-vi/arrays.md
+          - file: content/c-pointers-arrays-strings-vi/strings.md
+          - file: content/c-pointers-arrays-strings-vi/summary.md
       - title: "L05 C Memory Management"
         children:
           - file: content/c-memory-management/index.md
