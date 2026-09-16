@@ -14,7 +14,7 @@ project:
   github: 61c-teach/course-notes
   license: CC-BY-NC-ND-4.0
   exports:
-  - format: html
+  - format: pdf
     output: _build/
 
   toc:
@@ -31,7 +31,7 @@ project:
         - file: content/number-rep-vi/index.md
         - file: content/number-rep-vi/binary-decimal-hex.md
         - file: content/number-rep-vi/integer-representations.md
-        - file: content/number-rep-vi/twos-complement.md
+        # - file: content/number-rep-vi/twos-complement.md
         - file: content/number-rep-vi/summary.md
     - title: "L03-L07 C"
       children:
