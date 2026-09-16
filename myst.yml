@@ -72,6 +72,13 @@ project:
           - file: content/c-memory-management/heap.md
           - file: content/c-memory-management/heap-allocator.md
           - file: content/c-memory-management/summary.md
+      - title: "L05 Quản lý bộ nhớ C (Tiếng Việt)"
+        children:
+          - file: content/c-memory-management-vi/index.md
+          - file: content/c-memory-management-vi/stack.md
+          - file: content/c-memory-management-vi/heap.md
+          - file: content/c-memory-management-vi/heap-allocator.md
+          - file: content/c-memory-management-vi/summary.md
       - title: "L06 C Odds and Ends"
         children:
           - file: content/c-odds-and-ends/index.md
