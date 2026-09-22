@@ -86,6 +86,13 @@ project:
           - file: content/c-odds-and-ends/ll-add-front.md
           - file: content/c-odds-and-ends/ll-full.md
           - file: content/c-odds-and-ends/summary.md
+      - title: "L06 Các chủ đề khác về C (Tiếng Việt)"
+        children:
+          - file: content/c-odds-and-ends-vi/index.md
+          - file: content/c-odds-and-ends-vi/endianness.md
+          - file: content/c-odds-and-ends-vi/ll-add-front.md
+          - file: content/c-odds-and-ends-vi/ll-full.md
+          - file: content/c-odds-and-ends-vi/summary.md
       - title: "L07 C Generics, Function Pointers"
         children:
           - file: content/c-generics/index.md
