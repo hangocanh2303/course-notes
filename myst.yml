@@ -99,6 +99,12 @@ project:
           - file: content/c-generics/generics.md
           - file: content/c-generics/fn-ptr.md
           - file: content/c-generics/summary.md
+      - title: "L07 Generics, Con trỏ hàm (Tiếng Việt)"
+        children:
+          - file: content/c-generics-vi/index.md
+          - file: content/c-generics-vi/generics.md
+          - file: content/c-generics-vi/fn-ptr.md
+          - file: content/c-generics-vi/summary.md
     - title: "L08 Floating Point"
       children:
         - file: content/floating-point/index.md
