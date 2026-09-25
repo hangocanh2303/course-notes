@@ -132,6 +132,14 @@ project:
           - file: content/rv-intro/rv-bitwise.md
           - file: content/rv-intro/summary.md
           # - file: content/rv-intro/summary-precheck.md
+      - title: "L09 Giới thiệu RISC-V (Tiếng Việt)"
+        children:
+          - file: content/rv-intro-vi/index.md
+          - file: content/rv-intro-vi/elements.md
+          - file: content/rv-intro-vi/rv-isa.md
+          - file: content/rv-intro-vi/rv-arithmetic.md
+          - file: content/rv-intro-vi/rv-bitwise.md
+          - file: content/rv-intro-vi/summary.md
       - title: "L10 RISC-V Data Transfer"
         children:
           - file: content/rv-data-transfer/index.md
@@ -139,12 +147,25 @@ project:
           - file: content/rv-data-transfer/examples.md
           - file: content/rv-data-transfer/example-sp.md
           - file: content/rv-data-transfer/summary.md
+      - title: "L10 Truyền dữ liệu RISC-V (Tiếng Việt)"
+        children:
+          - file: content/rv-data-transfer-vi/index.md
+          - file: content/rv-data-transfer-vi/rv-load-store.md
+          - file: content/rv-data-transfer-vi/examples.md
+          - file: content/rv-data-transfer-vi/example-sp.md
+          - file: content/rv-data-transfer-vi/summary.md
       - title: "L11 RISC-V Decision Making"
         children:
           - file: content/rv-decision-making/index.md
           - file: content/rv-decision-making/branches.md
           - file: content/rv-decision-making/loops.md
           - file: content/rv-decision-making/summary.md
+      - title: "L11 Ra quyết định RISC-V (Tiếng Việt)"
+        children:
+          - file: content/rv-decision-making-vi/index.md
+          - file: content/rv-decision-making-vi/branches.md
+          - file: content/rv-decision-making-vi/loops.md
+          - file: content/rv-decision-making-vi/summary.md
       - title: "L12 RISC-V Procedures"
         children:
           - file: content/rv-procs/index.md
@@ -152,6 +173,13 @@ project:
           - file: content/rv-procs/rv-calling-conv.md
           - file: content/rv-procs/examples.md
           - file: content/rv-procs/summary.md
+      - title: "L12 Thủ tục RISC-V (Tiếng Việt)"
+        children:
+          - file: content/rv-procs-vi/index.md
+          - file: content/rv-procs-vi/rv-jumps-stack.md
+          - file: content/rv-procs-vi/rv-calling-conv.md
+          - file: content/rv-procs-vi/examples.md
+          - file: content/rv-procs-vi/summary.md
     - title: "L13-L14 RISC-V Instruction Formats"
       children:
       - title: "L13 RISC-V Instruction Formats I"
