@@ -113,6 +113,14 @@ project:
         - file: content/floating-point/fp-special-numbers.md
         - file: content/floating-point/fp-discussion.md
         - file: content/floating-point/summary.md
+    - title: "L08 Số dấu phẩy động (Tiếng Việt)"
+      children:
+        - file: content/floating-point-vi/index.md
+        - file: content/floating-point-vi/fp-floating-point.md
+        - file: content/floating-point-vi/fp-examples.md
+        - file: content/floating-point-vi/fp-special-numbers.md
+        - file: content/floating-point-vi/fp-discussion.md
+        - file: content/floating-point-vi/summary.md
     - title: "L09-L12 RISC-V"
       children:
       - title: "L09 RISC-V Intro"
