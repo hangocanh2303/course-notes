@@ -1,5 +1,5 @@
 ---
-title: "Calling Convention"
+title: "Quy ước gọi hàm"
 ---
 
 <!-- không tham chiếu cái này một cách tổng quát; tham chiếu sec-rv-calling-convention-->
