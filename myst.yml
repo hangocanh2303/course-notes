@@ -189,6 +189,13 @@ project:
           - file: content/rv-isa-formats-i/i-type.md
           - file: content/rv-isa-formats-i/s-type.md
           - file: content/rv-isa-formats-i/summary.md
+      - title: "L13 Định dạng lệnh RISC-V I (Tiếng Việt)"
+        children:
+          - file: content/rv-isa-formats-i-vi/index.md
+          - file: content/rv-isa-formats-i-vi/r-type.md
+          - file: content/rv-isa-formats-i-vi/i-type.md
+          - file: content/rv-isa-formats-i-vi/s-type.md
+          - file: content/rv-isa-formats-i-vi/summary.md
       - title: "L14 RISC-V Instruction Formats II"
         children:
           - file: content/rv-isa-formats-ii/index.md
@@ -196,6 +203,13 @@ project:
           - file: content/rv-isa-formats-ii/j-type.md
           - file: content/rv-isa-formats-ii/u-type.md
           - file: content/rv-isa-formats-ii/summary.md
+      - title: "L14 Định dạng lệnh RISC-V II (Tiếng Việt)"
+        children:
+          - file: content/rv-isa-formats-ii-vi/index.md
+          - file: content/rv-isa-formats-ii-vi/b-type.md
+          - file: content/rv-isa-formats-ii-vi/j-type.md
+          - file: content/rv-isa-formats-ii-vi/u-type.md
+          - file: content/rv-isa-formats-ii-vi/summary.md
     - title: "L15 CALL"
       children:
         - file: content/call/index.md
