@@ -3,7 +3,7 @@ title: "Định dạng lệnh R-Type"
 short_title: "R-Type"
 ---
 
-(sec-r-type)=
+(sec-r-type-vi)=
 ## Mục tiêu học tập
 
 * Xác định loại định dạng lệnh bằng trường `opcode`.

@@ -2,7 +2,7 @@
 title: "I-Type"
 ---
 
-(sec-i-type)=
+(sec-i-type-vi)=
 ## Mục tiêu học tập
 
 * Dịch qua lại giữa các lệnh hợp ngữ I-type và các lệnh máy.
