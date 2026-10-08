@@ -24,13 +24,20 @@ Video này được lấy từ sau này trong mùa Thu 2020 và tham chiếu đ�
 (sec-words)=
 ## Word
 
-Một word là gì? Trong kiến trúc máy tính, một **word** phần cứng là một đơn vị dữ liệu quan trọng. Kích thước word xác định nhiều khía cạnh của cấu trúc và hoạt động của máy tính, từ cách máy tính truy cập bộ nhớ đến cách trình biên dịch dịch một phép toán số học C đơn lẻ thành nhiều lệnh assembly. Kiến trúc 32-bit có kích thước word là 32 bit, hay 4 byte. Kiến trúc 64-bit có kích thước word là 64 bit, hay 8 byte.
+Word là gì? Trong kiến trúc máy tính, **word** (từ máy) là một đơn vị dữ liệu cơ bản và quan trọng. Kích thước word ảnh hưởng đến nhiều khía cạnh trong cấu trúc và hoạt động của máy tính — từ cách máy truy cập bộ nhớ, cho đến cách trình biên dịch chuyển đổi một phép tính số học đơn giản trong C thành nhiều lệnh assembly. Cụ thể:
 
-Trên hầu hết các kiến trúc hiện đại, kích thước word thường xác định (trong số những thứ khác[^word]) **địa chỉ lớn nhất có thể** và do đó kích thước của con trỏ C (xem [không gian địa chỉ](#sec-address-space)). Kiến trúc 32-bit có con trỏ 4-byte; kiến trúc 64-bit có con trỏ 8-byte. Kích thước word cũng thường xác định **đơn vị bộ nhớ nhỏ nhất có thể truy cập hoặc hiệu quả nhất**. Trên kiến trúc 32-bit, đọc và ghi bộ nhớ thường theo đơn vị 4-byte; trên kiến trúc 64-bit, theo đơn vị 8-byte.
+- **Kiến trúc 32-bit** có word 32 bit (4 byte)
+- **Kiến trúc 64-bit** có word 64 bit (8 byte)
 
-[^word]: Kích thước word phần cứng là đơn vị truy cập tự nhiên trong máy tính và tương ứng với kích thước thanh ghi phần cứng (sẽ thảo luận trong [phần sau](#sec-reg-size)). Tương ứng, kích thước thanh ghi này xác định đơn vị bộ nhớ nhỏ nhất có thể truy cập, kích thước của địa chỉ, v.v.
+Kích thước word quyết định nhiều thứ quan trọng[^word]:
 
-Chúng ta sẽ đề cập đến word phần cứng chi tiết hơn nhiều khi học về kiến trúc tập lệnh. Hiện tại, chúng ta sử dụng khái niệm word để nhắc nhở rằng các chương trình C đã biên dịch tạo ra bố cục bộ nhớ *phụ thuộc vào kiến trúc*. Chúng ta thảo luận một vài đặc điểm phụ thuộc kiến trúc của các chương trình đã biên dịch bên dưới.
+1. **Địa chỉ lớn nhất có thể biểu diễn** — và do đó kích thước con trỏ C (xem [không gian địa chỉ](#sec-address-space)). Kiến trúc 32-bit dùng con trỏ 4 byte; kiến trúc 64-bit dùng con trỏ 8 byte.
+
+2. **Đơn vị truy cập bộ nhớ hiệu quả nhất**. Kiến trúc 32-bit thường đọc/ghi bộ nhớ theo khối 4 byte; kiến trúc 64-bit theo khối 8 byte.
+
+[^word]: Kích thước word phần cứng chính là đơn vị truy cập tự nhiên của máy tính, tương ứng với kích thước thanh ghi (sẽ thảo luận trong [phần sau](#sec-reg-size)). Từ đó, nó quyết định đơn vị bộ nhớ nhỏ nhất có thể truy cập, kích thước địa chỉ, v.v.
+
+Chúng ta sẽ tìm hiểu kỹ hơn về word khi học kiến trúc tập lệnh. Hiện tại, khái niệm word giúp nhắc nhở rằng bố cục bộ nhớ của chương trình C sau khi biên dịch *phụ thuộc vào kiến trúc*. Phần tiếp theo sẽ bàn về một số đặc điểm phụ thuộc kiến trúc này.
 
 (sec-address-space)=
 ## Không gian địa chỉ
