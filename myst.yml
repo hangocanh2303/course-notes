@@ -243,6 +243,12 @@ project:
           - file: content/sds-combinational-logic/boolean-algebra.md
           - file: content/sds-combinational-logic/cl-design.md
           - file: content/sds-combinational-logic/summary.md
+      - title: "L17 Logic Tổ Hợp (Tiếng Việt)"
+        children:
+          - file: content/sds-combinational-logic-vi/index.md
+          - file: content/sds-combinational-logic-vi/boolean-algebra.md
+          - file: content/sds-combinational-logic-vi/cl-design.md
+          - file: content/sds-combinational-logic-vi/summary.md
       - title: "L18 State, Timing"
         children:
           - file: content/sds-state/index.md
