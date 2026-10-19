@@ -257,6 +257,14 @@ project:
           - file: content/sds-state/fsm.md
           - file: content/sds-state/pipelining.md
           - file: content/sds-state/summary.md
+      - title: "L18 State, Timing (VI)"
+        children:
+          - file: content/sds-state-vi/index.md
+          - file: content/sds-state-vi/register.md
+          - file: content/sds-state-vi/timing-synchronous-system.md
+          - file: content/sds-state-vi/fsm.md
+          - file: content/sds-state-vi/pipelining.md
+          - file: content/sds-state-vi/summary.md
       - title: "L19-L20 Combinational Logic Blocks"
         children:
           - file: content/sds-blocks/index.md
