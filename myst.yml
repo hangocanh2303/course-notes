@@ -271,6 +271,12 @@ project:
           - file: content/sds-blocks/adder-subtractor.md
           - file: content/sds-blocks/alu.md
           - file: content/sds-blocks/summary.md
+      - title: "L19-L20 Combinational Logic Blocks (VI)"
+        children:
+          - file: content/sds-blocks-vi/index.md
+          - file: content/sds-blocks-vi/alu.md
+          - file: content/sds-blocks-vi/adder-subtractor.md
+          - file: content/sds-blocks-vi/summary.md
       #     - file: content/sds-logic-blocks/summary-precheck.md
       #     - file: content/sds-logic-blocks/exercises.md
     - title: "L21-L23 Single-Cycle CPU"
