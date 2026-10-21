@@ -167,7 +167,7 @@ Nhìn chung, lưu và khôi phục thanh ghi được coi là một phần của
 
 Theo calling convention, chúng ta xem lại [Sáu bước cơ bản để gọi thủ tục](#sec-rv-procedure-call-steps) từ [phần trước](#sec-rv-procedure-calls) chi tiết hơn:
 
-(sec-rv-procedure-call-steps-revisited)=
+(sec-rv-procedure-call-steps-revisited-vi)=
 :::{note} Sáu bước cơ bản để gọi thủ tục, xem lại
 
 | Bước | Ai | Mô tả gốc | Mô tả xem lại

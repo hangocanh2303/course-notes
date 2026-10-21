@@ -108,4 +108,4 @@ Trong phép tương tự này, nhà của cha mẹ bạn là máy tính. Thanh g
 
 :::
 
-Chúng ta xem lại sáu bước cơ bản này trong [phần sau](#sec-rv-procedure-call-steps-revisited).
+Chúng ta xem lại sáu bước cơ bản này trong [phần sau](#sec-rv-procedure-call-steps-revisited-vi).

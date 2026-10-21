@@ -9,10 +9,10 @@ title: "Gọi thủ tục đệ quy"
 * Thực hành gọi thủ tục, sử dụng thủ tục đệ quy làm ví dụ.
 * Xác định các trường hợp sử dụng cho lệnh và pseudoinstruction jump vô điều kiện–đặc biệt, biết cách nhảy đến thủ tục và trả về từ thủ tục.
 
-Chúng tôi khuyến nghị mở [phần quy ước thanh ghi](#tab-calling-convention) của [Green Card RISC-V](#sec-green-card). Chúng tôi cũng khuyến nghị tham chiếu [Các bước cơ bản](#sec-rv-procedure-call-steps) ([phiên bản xem lại](#sec-rv-procedure-call-steps-revisited)) của gọi thủ tục.
+Chúng tôi khuyến nghị mở [phần quy ước thanh ghi](#tab-calling-convention) của [Green Card RISC-V](#sec-green-card). Chúng tôi cũng khuyến nghị tham chiếu [Các bước cơ bản](#sec-rv-procedure-call-steps) ([phiên bản xem lại](#sec-rv-procedure-call-steps-revisited-vi)) của gọi thủ tục.
 
 
-```{embed} #sec-rv-procedure-call-steps-revisited
+```{embed} #sec-rv-procedure-call-steps-revisited-vi
 ```
 
 ## Ví dụ đệ quy: `factorial`
