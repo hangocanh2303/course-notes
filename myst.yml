@@ -287,6 +287,12 @@ project:
           - file: content/datapath/elements.md
           - file: content/datapath/r-type.md
           - file: content/datapath/i-type.md
+      - title: "L21 Single-Cycle CPU Datapath I (VI)"
+        children:
+          - file: content/datapath-vi/index.md
+          - file: content/datapath-vi/elements.md
+          - file: content/datapath-vi/r-type.md
+          - file: content/datapath-vi/i-type.md
       - title: "L22 Single-Cycle CPU Datapath II"
         children:
           - file: content/datapath/load-store.md
