@@ -313,6 +313,12 @@ project:
           - file: content/datapath/instruction-timing.md
           - file: content/datapath/special-regs.md
           - file: content/datapath/summary.md
+      - title: "L23 Single-Cycle CPU Control, Instruction Timing (VI)"
+        children:
+          - file: content/datapath-vi/control.md
+          - file: content/datapath-vi/instruction-timing.md
+          - file: content/datapath-vi/special-regs.md
+          - file: content/datapath-vi/summary.md
     - title: "L24-L25 Pipelining"
       children:
       - title: "L24 Throughput, Latency, and the 5-Stage Pipeline"
