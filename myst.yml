@@ -299,6 +299,12 @@ project:
           - file: content/datapath/b-type.md
           - file: content/datapath/jump.md
           - file: content/datapath/u-type.md
+      - title: "L22 Single-Cycle CPU Datapath II (VI)"
+        children:
+          - file: content/datapath-vi/load-store.md
+          - file: content/datapath-vi/b-type.md
+          - file: content/datapath-vi/jump.md
+          - file: content/datapath-vi/u-type.md
       #     # - file: content/datapath/summary-precheck.md
       #     # - file: content/datapath/exercises.md
       - title: "L23 Single-Cycle CPU Control, Instruction Timing"
