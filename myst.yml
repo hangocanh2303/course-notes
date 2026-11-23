@@ -366,6 +366,13 @@ project:
       - file: content/caches-ii/direct-mapped.md
       - file: content/caches-ii/set-associative.md
       - file: content/caches-ii/summary.md
+    - title: L27-L28 Cache Design (VI)
+      children:
+      - file: content/caches-ii-vi/index.md
+      - file: content/caches-ii-vi/fully-associative.md
+      - file: content/caches-ii-vi/direct-mapped.md
+      - file: content/caches-ii-vi/set-associative.md
+      - file: content/caches-ii-vi/summary.md
     - title: L29 Cache Misses and Optimization
       children:
       - file: content/caches-iii/index.md
