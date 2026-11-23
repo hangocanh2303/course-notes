@@ -379,6 +379,12 @@ project:
       - file: content/caches-iii/optimizations.md
       - file: content/caches-iii/blocking.md
       - file: content/caches-iii/summary.md
+    - title: L29 Cache Misses and Optimization (VI)
+      children:
+      - file: content/caches-iii-vi/index.md
+      - file: content/caches-iii-vi/optimizations.md
+      - file: content/caches-iii-vi/blocking.md
+      - file: content/caches-iii-vi/summary.md
   - title: L30-L34 Performance Programming
     children:
     - title: L30 Amdahl's Law
