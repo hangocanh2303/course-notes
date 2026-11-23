@@ -346,6 +346,13 @@ project:
           - file: content/pipeline-hazards/data-hazards.md
           - file: content/pipeline-hazards/control-hazards.md
           - file: content/pipeline-hazards/summary.md
+      - title: "L25 Hazards (VI)"
+        children:
+          - file: content/pipeline-hazards-vi/index.md
+          - file: content/pipeline-hazards-vi/structural-hazards.md
+          - file: content/pipeline-hazards-vi/data-hazards.md
+          - file: content/pipeline-hazards-vi/control-hazards.md
+          - file: content/pipeline-hazards-vi/summary.md
     - title: "L26-L29 Caches"
       children:
       - title: "L26 Cache Performance"
