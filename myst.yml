@@ -330,6 +330,15 @@ project:
           - file: content/pipeline/superscalar.md
           - file: content/pipeline/energy.md
           - file: content/pipeline/summary.md
+      - title: "L24 Throughput, Latency, and the 5-Stage Pipeline (VI)"
+        children:
+          - file: content/pipeline-vi/index.md
+          - file: content/pipeline-vi/laundry.md
+          - file: content/pipeline-vi/five-stage-pipeline.md
+          - file: content/pipeline-vi/iron-law-cpi.md
+          - file: content/pipeline-vi/superscalar.md
+          - file: content/pipeline-vi/energy.md
+          - file: content/pipeline-vi/summary.md
       - title: "L25 Hazards"
         children:
           - file: content/pipeline-hazards/index.md
